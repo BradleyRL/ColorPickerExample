@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  App name -->
+    <string name="app_name">Color Picker</string>
+    
+    
+    <!-- Menu MainActivity -->
+    
+    
+    <string name="ns_menu_main_row_calendar_original">Original ColorPicker</string>
+    
+    
+    
+</resources>
