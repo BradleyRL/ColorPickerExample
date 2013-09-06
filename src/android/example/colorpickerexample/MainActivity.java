@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity  {
@@ -30,9 +29,9 @@ public class MainActivity extends ActionBarActivity  {
 		final boolean isTablet = Utils.isTablet(this);
 		ColorSquare square1 = (ColorSquare) findViewById(R.id.menurow_square);
 		square1.setBackgroundColor(Utils.ColorUtils.parseWhiteColor());
-		TextView text1 = (TextView) findViewById(R.id.menurow_title);
+		//TextView text1 = (TextView) findViewById(R.id.menurow_title);
 		
-		text1.setOnClickListener(new OnClickListener() {    		
+		square1.setOnClickListener(new OnClickListener() {    		
     		
 			@Override
 			public void onClick(View v) {
